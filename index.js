@@ -1,7 +1,7 @@
 const app = require('./app');
 require('dotenv').config({ path: '.env' });
 
-const puerto = process.env.DB_PUERTO || 5000;
+const puerto = process.env.PUERTO;
 
 // Establecer un puerto
 app.listen(puerto, () => {

@@ -16,8 +16,8 @@ exports.home = async (req, res) => {
         }
     }
   }
-  console.log(results);
-  res.send(results)
-  // res.send('Hola')
+
+  // res.status(200).json(nets);
+  res.json(results);
 }
 
